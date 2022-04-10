@@ -1,0 +1,25 @@
+.circles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #282c34;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    background: yellow;
+    border-radius: 100%;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.circle.red {
+    background-color: #FD5151
+}
+
+.circle.blue {
+    background-color: #51A0FD
+}
